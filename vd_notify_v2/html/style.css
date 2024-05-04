@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mohave", sans-serif;
+    font-weight: 500;
+    /* background:rgba(0, 0, 0, 0.850)url(https://wallpaperbat.com/img/24803-gta-wallpaper-top-free-gta-background.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.main-container{
+    width:  26vw;
+    height: 40.5vh;
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    /* background: rgba(255, 0, 0, 0.253); */
+    display: flex;
+    flex-direction: column;
+    gap:  0vh;
+    overflow: hidden;
+    background: none;
+}
+
+/* ----------------------------------------INFO------------------------------------------- */
+
+.info-container{
+    margin-top: 3vh;
+    width:  22vw;
+    height: 7vh;
+    background: linear-gradient(to right, #04cefb6d , transparent);
+    border-radius: 2vh;
+    margin-left: 4vh;
+}
+
+.info-type{
+    font-size: 2.5vh;
+    color: #04CEFB;
+    background: none;
+    margin-left:  4.5vh;
+    margin-top: -11vh;
+}
+
+.fa-bell{
+    color: #04CEFB;
+    background: none;
+    font-size: 2.5vh;
+    text-shadow: 0 0 10px #04CEFB;
+    margin-left:  -2.6vh;
+    top: -5.3vh;
+    padding: 2vh;
+    z-index: 2;
+    position: relative;
+}
+
+.info-block{
+    height: 4vh;
+    width: 4vh;
+    background: #00708a;
+    rotate: 45deg;
+    border-radius: 0.8vh;
+    outline: 2px solid #04CEFB ;
+    margin-left: -1.5vh;
+    z-index: 1;
+    position: relative;
+    box-shadow: 1vh 0 2vh rgba(0, 0, 0, 0.664);
+    margin-top: 1.5vh;
+}
+
+/* ----------------------------------------INFO------------------------------------------- */
+
+
+/* ----------------------------------------SUCCES------------------------------------------- */
+
+.succes-container{
+    margin-top: 3vh;
+    width:  22vw;
+    height: 7vh;
+    background: linear-gradient(to right, #00ff406d , transparent);
+    border-radius: 2vh;
+    margin-left: 4vh;
+}
+
+.succes-type{
+    font-size: 2.5vh;
+    color: #04fb10;
+    background: none;
+    margin-left:  4.5vh;
+    margin-top: -11.5vh;
+}
+
+.fa-check{
+    color: #04fb10;
+    background: none;
+    font-size: 2.8vh;
+    text-shadow: 0 0 10px #04fb10;
+    margin-left:  -2.6vh;
+    top: -5.1vh;
+    padding: 2vh;
+    z-index: 2;
+    position: relative;
+}
+
+.succes-block{
+    height: 4vh;
+    width: 4vh;
+    background: #009908;
+    rotate: 45deg;
+    border-radius: 0.8vh;
+    outline: 2px solid #04fb10 ;
+    margin-left: -1.5vh;
+    z-index: 1;
+    position: relative;
+    box-shadow: 1vh 0 2vh rgba(0, 0, 0, 0.664);
+    margin-top: 1.5vh;
+}
+
+/* ----------------------------------------SUCCES------------------------------------------- */
+
+/* ----------------------------------------ERROR------------------------------------------- */
+
+.error-container{
+    margin-top: 3vh;
+    width:  22vw;
+    height: 7vh;
+    background: linear-gradient(to right, #fb04046d , transparent);
+    border-radius: 2vh;
+    margin-left: 4vh;
+}
+
+.error-type{
+    font-size: 2.5vh;
+    color: #fb0404;
+    background: none;
+    margin-left:  4.5vh;
+    margin-top: -11vh;
+}
+
+.fa-x{
+    color: #fb0404;
+    background: none;
+    font-size: 2.3vh;
+    text-shadow: 0 0 10px #fb0404;
+    margin-left:  -2.4vh;
+    top: -5vh;
+    padding: 2vh;
+    z-index: 2;
+    position: relative;
+}
+
+.error-block{
+    height: 4vh;
+    width: 4vh;
+    background: #8a0000;
+    rotate: 45deg;
+    border-radius: 0.8vh;
+    outline: 2px solid #fb0404 ;
+    margin-left: -1.5vh;
+    z-index: 1;
+    position: relative;
+    box-shadow: 1vh 0 2vh rgba(0, 0, 0, 0.664);
+    margin-top: 1.5vh;
+}
+
+/* ----------------------------------------ERROR------------------------------------------- */
+
+
+.mesaj{
+    font-size: 1.5vh;
+    color: #D8D8D8;
+    background: none;
+    margin-left:  4.5vh;
+}
